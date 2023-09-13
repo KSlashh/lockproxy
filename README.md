@@ -54,3 +54,11 @@ hardhat run ./scripts/LockProxyLimited.sol
 ```
 hardhat run ./scripts/LockProxyReviewable.sol
 ```
+
+## test
+
+```
+hardhat test ./test/LockProxyPausableTest.js
+hardhat test ./test/LockProxyLimitedTest.js
+hardhat test ./test/LockProxyReviewableTest.js
+```
